@@ -1,12 +1,10 @@
-import Heading from "./Heading.jsx";
-import Paragraph from "./Paragraph.jsx";
+import App from "./App";
 const react = require("react");
 const ReactDOM = require("react-dom");
 
 ReactDOM.render(
   <div>
-    <Heading />
-    <Paragraph />
+    <App />
   </div>,
   document.getElementById("root")
 );
